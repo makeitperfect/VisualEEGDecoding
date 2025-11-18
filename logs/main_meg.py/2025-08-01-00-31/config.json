@@ -1,0 +1,33 @@
+{
+    "net_name": "Brain_Visual_Encoder_MEG",
+    "epoch": 100,
+    "train_batch_size": 1024,
+    "test_batch_size": 200,
+    "lr": 0.001,
+    "mixup": false,
+    "blur_level": [
+        "l_1",
+        "l_3",
+        "l_9",
+        "l_15",
+        "l_21",
+        "l_27",
+        "l_33",
+        "l_39",
+        "l_45",
+        "l_51",
+        "l_57",
+        "l_63"
+    ],
+    "use_filter": false,
+    "low_freq": 0.1,
+    "high_freq": 50.0,
+    "save_feature": false,
+    "select_period": [
+        0,
+        201
+    ],
+    "save_path": "D:\\Code\\Visual_EEG_Decoding\\logs\\blur_bank_meg.py\\Brain_Visual_Encoder_MEG\\2025-08-01-00-31",
+    "data_path": "D:\\Dataset\\things-meg",
+    "cross_subject": true
+}
